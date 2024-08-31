@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture Photo and Location</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Capture Photo and Location</h1>
+        <input type="file" id="cameraInput" accept="image/*" capture="environment">
+        <button id="captureBtn">Capture</button>
+        <div id="location"></div>
+        <img id="photo" src="" alt="Captured Photo">
+        <button id="openMapBtn" style="display:none;">Open in Google Maps</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
